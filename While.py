@@ -23,4 +23,17 @@ while i<=20:
 
 #Preguntar al usuario por números hasta que el usuario introduzca “q” para quit.  Sumar los valores y imprimir el resultado final. 
 
-Numeros= int(input("Introduce los numeros que quieras. Para terminar presiona 'q' :  "))
+""" Numero= input("Introduce el numero que quieras. Para terminar presiona 'q' :  ")
+
+suma= 0
+while Numero != 'q':
+    suma = suma + int(Numero)
+    Numero= input("Quieres continuar?,  Si: Introduce un numero. No: Introduce  'q' :  ")
+print(suma) """
+
+
+total = 0
+while total < 100:
+    num = int(input("Enter a number: "))
+    total = total + num
+print("Tthe total is", total)    
