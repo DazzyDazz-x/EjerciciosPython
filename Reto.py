@@ -17,4 +17,4 @@ suma= 0
 for i in Transacc:   
     suma += i 
 print("Tu saldo total es de: ", suma ) #sum(Tx[i])/i)
-print("La media es: ", float(suma/i))
+print("La media es: ", float(suma/Len(Transacc))
