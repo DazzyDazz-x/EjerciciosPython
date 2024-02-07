@@ -1,20 +1,13 @@
-#TRANSACCIONES DE TU CUENTA
-""" Tx=input("Introduce tu primer transaccion, para terminar introduce 'F': ")
-sum=0
-while Tx!= 'F':
-    sum=sum +int(Tx)
-    Tx=input("Introduce tu siguiente transaccion, para terminar introduce 'F': ")
-print("Tu saldo total es de: ", int(sum))   """  
-
+#TRANSACCIONES DE TU CUENTA BANCARIA. MUESTRA TU SALDO TOTAL Y LA MEDIA
 
 Transacc= []
-Tx=input("Introduce tu primer transaccion, para terminar introduce 'F': ")
-while Tx!= 'F':
+Tx=input("Introduce tu primer transaccion. Para terminar introduce 'f': ")
+while Tx!= 'f':
     Transacc.append(int(Tx))
-    Tx=input("Introduce tu siguiente transaccion, para terminar introduce 'F': ")
+    Tx=input("Introduce tu siguiente transaccion. Para terminar introduce 'f': ")
 
 suma= 0
 for i in Transacc:   
     suma += i 
-print("Tu saldo total es de: ", suma ) #sum(Tx[i])/i)
-print("La media es: ", float(suma/Len(Transacc))
+print("Tu saldo total es de: ", suma, "euros" ) #sum(Tx[i])/i)
+print("La media es: ", float(suma/len(Transacc)), "euros")
