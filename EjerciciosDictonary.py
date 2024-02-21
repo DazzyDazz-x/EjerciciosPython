@@ -78,4 +78,8 @@ for i in range(3):
     nombre=input("Dime tu nombre: ")
     comida= input("Dime tu comida favorita: ")
     usuario.update({"nombre":"comida"})
-    print(f"Para {nombre} su comida favorita es {comida} ")        
+    print(f"Para {nombre} su comida favorita es {comida} ")     
+
+
+
+print("test")
