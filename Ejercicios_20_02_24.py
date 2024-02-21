@@ -18,7 +18,7 @@ devolver: int  """
 #Crear una función para comprobar la edad de un usuario antes de que entre en una web para adultos. 
 #Si es menor a 18, devolver False.
 
-def block(edad:int)->bool:
+""" def block(edad:int)->bool:
     if edad<18:
         return False
     else:
@@ -60,7 +60,7 @@ print("La palabra tiene primer letra mayuscula?: " + str(mayus(texto)))
 
 
 #Crear una función para saber si un número es par o impar. Usar el % módulo operando, que devuelve lo que sobra de 
-#una división.
+#una división.(pregunta d entrevista)
 
 def tiponum (x:int)->bool:
     if x % 2== 0:
@@ -74,17 +74,60 @@ if tiponum(num)== True:
     print("es par")
 else:
     print("es impar")    
+ 
 
-
-#Con una lista, encuentra el número máximo y mínimo.
+#Con una lista, encuentra el número máximo y mínimo. (no funciona, terminarlo!!)
     
 def maxNum(*args):
-    return  max(args)
+    return  max(*args)
 def minNum(*args):
-    return min(args)
+    return min(*args)
 
 num= input("Introduce una lista(separado por comas): ")
-print("el num maximo es:"+str(maxNum(num)) + "el num minimo es: "+ str(minNum(num)))
+print("el num maximo es: " + str(maxNum(num)) + " el num minimo es: "+ str(minNum(num))) 
 
+#La del maestro
+def minmax(lista):
+    return min(lista), max(lista)
+
+x, y= minmax(lista)
+print(x,y)
+
+#otra, no terminada
+defminmax(*args):
+    return min(args), max(args)
+
+x, y    
+
+
+
+ """
+
+
+#En una línea de texto, encuentra la palabra más larga. Por ejemplo, “Me gustan los garbanzos” devuelve “garbanzos”.(no terminada, es la mia)
+def texto(palMayor)->str:
+    list= texto.split(",")
+    for i in list:
+        tamaño=len(i)
+        palMayor=max(tamaño)
+        return palMayor
    
+
+#la del profe
+texto="me gustan los garbanzos"  
+def encontrarPalabra(texto):  
+    palabras=texto.split()
+    max_len= 0
+    max_palabra= ""
+
+    for palabra in palabras:
+        if len(palabra)>max_len:
+            max_len= len(palabra)
+            max_palabra=palabra
+
+    return max_len, max_palabra       
+
+print(encontrarPalabra("texto"))             
+
+
 
