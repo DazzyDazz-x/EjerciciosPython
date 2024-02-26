@@ -1,5 +1,5 @@
 #Ejemplos en pizarron
-""" paises={"Australia": "Canberra", "España": "Madrid"} #un elemento y su valor despues de dos puntos
+paises={"Australia": "Canberra", "España": "Madrid"} #un elemento y su valor despues de dos puntos
 print(paises["Australia"]) #get()
 
 paises.update({"España":123})
@@ -20,7 +20,7 @@ for v in paises.values():
 for k in paises.keys():
     print(k)     
 
-user1= {"email": "blabla", "nombre": "che"} 
+"""user1= {"email": "blabla", "nombre": "che"} 
 user2= {"email": "blabla2", "nombre": "deisy"} 
 
 users=[user1, user2]
@@ -71,7 +71,7 @@ for i in Miscoches:
     for k, v in usuario.items():
         print(k, v)
  """
-
+""" 
 usuario={}
 
 for i in range(3):
@@ -83,3 +83,4 @@ for i in range(3):
 
 
 print("test")
+ """
