@@ -1,4 +1,4 @@
 Informe de usuarios
 jon.smith,maria.fernandez,david,isabel,alfonso
  Aqui son los dominios: 
-,microsoft.es,microsoft.com,gmail.com
+,microsoft.es,microsoft.com,gmail.comjkdxdajkdxda
