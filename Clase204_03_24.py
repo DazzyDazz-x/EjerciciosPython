@@ -31,9 +31,9 @@ class empleados():
 
 empleados=[]
 
-empleados.append(jon)
+"""empleados.append(jon)
 empleados.append(maria)
-empleados.append(pepe)
+empleados.append(pepe)"""
 
 
 
