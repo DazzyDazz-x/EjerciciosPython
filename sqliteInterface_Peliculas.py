@@ -51,7 +51,7 @@ while True:
    
 
     elif accion == 6:
-        nombre= input("Que pelis nuscas?")
+        nombre= input("Que pelis buscas?")
         nombre= nombre + "%"
         #sSQL= f"SELECT *FROM Peliculas WHERE nombre LIKE ?"    
         cursor= conn.cursor()
